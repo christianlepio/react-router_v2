@@ -3,7 +3,7 @@ import Feed from './Feed'
 
 const Home = ({ posts }) => {
     return (
-        <main className='mt-3 overflow-y-auto' style={{maxHeight: '85vh'}}>
+        <main className='mt-3 overflow-y-auto' style={{maxHeight: '80vh'}}>
             {posts.length ? (
                 <Feed posts={posts}/>
             ) : (
