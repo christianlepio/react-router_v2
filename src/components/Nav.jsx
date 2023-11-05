@@ -6,7 +6,7 @@ const Nav = ({ search, setSearch }) => {
         <header>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <Link to='/' className="navbar-brand mb-0 h1">
+                    <Link to='/react-router_v2/' className="navbar-brand mb-0 h1">
                         Blogs
                     </Link>
 

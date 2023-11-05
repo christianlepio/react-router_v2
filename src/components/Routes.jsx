@@ -80,7 +80,7 @@ const AppRoutes = () => {
     return (
         <>
             <Routes>
-                <Route path='/' element={<Layout 
+                <Route path='/react-router_v2/' element={<Layout 
                     search={search}
                     setSearch={setSearch}
                 />}
@@ -93,7 +93,8 @@ const AppRoutes = () => {
 
                     //nested routing
                     //index keyword means this is the default page of Layout.
-                    <Route path='post'> 
+                    <Route path='/react-router_v2/post'> 
+
                         <Route index element={<NewPost 
                             handleSubmit={handleSubmit}
                             postTitle={postTitle}
@@ -110,7 +111,7 @@ const AppRoutes = () => {
                         />
                     </Route>
 
-                    <Route path='about' element={<About />} />
+                    <Route path='react-router_v2/about' element={<About />} />
 
                     <Route path='*' element={<Missing />} />
                 </Route>
