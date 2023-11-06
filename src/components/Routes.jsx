@@ -59,7 +59,7 @@ const AppRoutes = () => {
         const newPost = {
             id, 
             title: postTitle, 
-            dateTime, 
+            datetime: dateTime, 
             body: postBody
         }
         const allPosts = [...posts, newPost]
@@ -113,7 +113,7 @@ const AppRoutes = () => {
 
                     <Route path='/react-router_v2/about' element={<About />} />
 
-                    <Route path='*' element={<Missing />} />
+                    <Route path='/react-router_v2/*' element={<Missing />} />
                 </Route>
             </Routes> 
         </>
