@@ -28,17 +28,17 @@ const Nav = ({ search, setSearch }) => {
                     >
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to='/' className="nav-link active" aria-current="page">
+                                <Link to='/react-router_v2/' className="nav-link active" aria-current="page">
                                     Home
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='about' className="nav-link active" aria-current="page">
+                                <Link to='/react-router_v2/about' className="nav-link active" aria-current="page">
                                     About
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='post' className="nav-link active" aria-current="page">
+                                <Link to='/react-router_v2/post' className="nav-link active" aria-current="page">
                                     Post
                                 </Link>
                             </li>

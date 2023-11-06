@@ -67,14 +67,14 @@ const AppRoutes = () => {
         setPosts(allPosts)
         setPostTitle('')
         setPostBody('')
-        navigate('/')
+        navigate('/react-router_v2/')
     }
 
     const handleDelete = (id) => {
         const postsList = posts.filter(post => post.id !== id)
         
         setPosts(postsList)
-        navigate('/') //back to index page after post deletion
+        navigate('/react-router_v2/') //back to index page after post deletion
     }
 
     return (
@@ -111,7 +111,7 @@ const AppRoutes = () => {
                         />
                     </Route>
 
-                    <Route path='react-router_v2/about' element={<About />} />
+                    <Route path='/react-router_v2/about' element={<About />} />
 
                     <Route path='*' element={<Missing />} />
                 </Route>
